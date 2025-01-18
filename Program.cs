@@ -45,8 +45,7 @@ public class Program{
             Utils.TemplateIDs.Add(new DirectoryInfo(dir).Name,dir); //Add each subdir to TemplateID Dictionary
         }
         }catch{
-            Console.WriteLine("Make sure to create a folder named Templates in the .exe directory.");
-            throw new Exception("Could not load templates.");
+            throw new Exception("Could not load templates. Make sure to create a folder named Templates in the .exe directory.");
         }
 
         /////ADD EACH COMMAND
