@@ -1,5 +1,5 @@
 # Template Builder
-## Copies a template folder to a specified path, creating a new folder
+## Very useful tool for copying templates and creating custom projects.
 
 ### After building try:
 #### templateBuilder --new PROJECTNAME TemplateID
