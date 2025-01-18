@@ -151,7 +151,7 @@ public class Program{
 
         var keys = Utils.TemplateIDs.Keys.ToArray<String>();
         if(keys.Length == 0){
-            Console.WriteLine("No templates found. To create a template, simply add a new folder to the Templates folder next to the .exe file.");
+            Console.WriteLine("No templates found. To create a template, simply add a new folder in the Templates folder next to the .exe file.");
         }
         
         for(int i = 0; i < keys.Length; ++i){
